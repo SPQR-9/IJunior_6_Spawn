@@ -20,10 +20,10 @@ public class SpawnBombs : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(ISpawnBombs());
+        StartCoroutine(SpawnBombsEveryTime());
     }
 
-    private IEnumerator ISpawnBombs()
+    private IEnumerator SpawnBombsEveryTime()
     {
         int randIndex;
         while (true)
